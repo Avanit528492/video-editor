@@ -58,7 +58,7 @@ class VideoSelectionController extends GetxController{
           ScaffoldMessenger.of(context).showSnackBar(
               const SnackBar(content: Text("Video Merge Successfully"))
           );
-          Future.delayed(Duration(seconds: 5),(){
+          Future.delayed(Duration(seconds: 10),(){
             RemoveAppLoader(context);
             Get.to(VideoWatermarkScreen(videofile: File(savepath)));
           });
