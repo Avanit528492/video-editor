@@ -27,4 +27,4 @@ jobs:
         with:
           artifacts: build/app/outputs/apk/release/app-release.apk
           tag: v1.0.0(1)
-          token: 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
+          token: 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
